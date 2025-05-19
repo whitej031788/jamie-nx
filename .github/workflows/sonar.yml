@@ -34,7 +34,7 @@ jobs:
       # - uses: SonarSource/sonarqube-quality-gate-action@v1
       #   timeout-minutes: 5
       #   env:
-      #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_1 }}
+      #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
   sonarQubeScan2:
     name: sonarQubeScan2
     runs-on: ubuntu-latest
@@ -57,7 +57,7 @@ jobs:
       # - uses: SonarSource/sonarqube-quality-gate-action@v1
       #   timeout-minutes: 5
       #   env:
-      #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_2 }}
+      #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
   sonarQubeScan3:
     name: sonarQubeScan3
     runs-on: ubuntu-latest
@@ -80,6 +80,6 @@ jobs:
       # - uses: SonarSource/sonarqube-quality-gate-action@v1
       #   timeout-minutes: 5
       #   env:
-      #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_2 }}
+      #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
   # Add other scan jobs if you wish to scan more projects in the monorepo   
