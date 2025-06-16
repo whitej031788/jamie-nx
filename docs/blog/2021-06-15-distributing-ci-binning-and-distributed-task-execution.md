@@ -1,5 +1,5 @@
 ---
-title: 'Distributing CI: Binning and Distributed Task Execution'
+title: 'Distributing CI: Binning and Distributed Task Executions'
 slug: 'distributing-ci-binning-and-distributed-task-execution'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2021-06-15/jFVfKEglfQIM9QsP.avif'
