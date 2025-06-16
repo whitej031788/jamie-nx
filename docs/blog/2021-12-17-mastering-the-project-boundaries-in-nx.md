@@ -13,7 +13,7 @@ Our book [Enterprise Angular Monorepo Patterns](https://go.nx.dev/angular-enterp
 
 On large projects, you will most likely find multiple teams working on different parts of the solution. Those projects are usually split into logical domains, where each team focuses on a single domain. Each domain block can have a clear public API which other domains can use to consume the information.
 
-But the code organization is just one piece of the puzzle. The physical organization does not prevent developers from consuming the domains or parts of those domains, that should otherwise be outside of their reach. Nx ships with `enforce-module-boundaries` ESLint rule that helps restrict that possibility.
+But the code organization is just one piece of the puzzle. The physical organization does not prevent developers from consuming the domains or parts of those domains (and what not), that should otherwise be outside of their reach. Nx ships with `enforce-module-boundaries` ESLint rule that helps restrict that possibility.
 
 ## Understanding the default configuration
 
