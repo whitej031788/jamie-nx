@@ -49,6 +49,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  # analysis token associated to your project
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         with:
+          verbose: true
           projectBaseDir: packages/storybook/ # project path from the monorepo root directory
       # If you wish to fail your job when the Quality Gate is red, uncomment the
       # following lines. This would typically be used to fail a deployment.
