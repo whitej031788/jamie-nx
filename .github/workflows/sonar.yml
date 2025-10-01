@@ -52,6 +52,8 @@ jobs:
           #projectBaseDir: packages/storybook/ # project path from the monorepo root directory
           args: >
             -Dsonar.verbose=true
+            -Dsonar.projectKey=nx-storybook
+            -Dsonar.inclusions=scripts/**,packages/storybook/**
       # If you wish to fail your job when the Quality Gate is red, uncomment the
       # following lines. This would typically be used to fail a deployment.
       # We do not recommend to use this in a pull request. Prefer using pull request

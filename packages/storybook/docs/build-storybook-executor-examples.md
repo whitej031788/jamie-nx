@@ -1,5 +1,5 @@
 ---
-title: Storybook builder executor examplesss
+title: Storybook builder executor exampless
 description: This page contains examples for the @nx/storybook:build executor.
 ---
 
