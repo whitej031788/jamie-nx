@@ -49,7 +49,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  # analysis token associated to your project
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         with:
-          projectBaseDir: packages/storybook/ # project path from the monorepo root directory
+          #projectBaseDir: packages/storybook/ # project path from the monorepo root directory
           args: >
             -Dsonar.verbose=true
       # If you wish to fail your job when the Quality Gate is red, uncomment the
