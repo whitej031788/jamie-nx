@@ -26,7 +26,7 @@ jobs:
             "-Dsonar.projectName=Jamie NX SCA"
             -Dsonar.projectKey=jamie-nx-sca
             -Dsonar.sca.enabled=true
-            -Dsonar.inclusions=**/package.json,**/yarn.lock,**/package-lock.json,**/pnpm-lock.yaml,**/bun.lock
+            -Dsonar.inclusions=pnpm-lock.yaml
             -Dssonar.sca.recursiveManifestSearch=false
             -Dsonar.sca.npmNoResolve=true
             -Dsonar.verbose=true
