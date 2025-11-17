@@ -29,4 +29,5 @@ jobs:
             -Dsonar.inclusions=pnpm-lock.yaml
             -Dssonar.sca.recursiveManifestSearch=false
             -Dsonar.sca.npmNoResolve=true
+            -Dsonar.sca.exclusions=package.json,Cargo.lock,Cargo.toml,nx-dev/**,packages/**,tools/**,typedoc-theme/**,docs/**
             -Dsonar.verbose=true
